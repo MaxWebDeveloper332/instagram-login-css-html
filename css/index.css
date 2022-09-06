@@ -1,0 +1,230 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f7f7f7;
+}
+
+.form{
+    margin: -267px 10px 10px 10px;
+    width: 346px;
+    height: 425px;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 0.2px 1px;
+    font-family: sans-serif;
+    letter-spacing: 0.3px;
+    background: white;
+}
+.logo{
+    width: 175px;
+    height: 51px;
+    margin: 11px 16px 37px 48px;
+}
+
+
+.Number{
+    margin: 3px 48px 6px 14px;
+    padding: 0px 83px 7px 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.Password{
+    margin: 1px 27px 14px 13px;
+    padding: 0px 87px 7px 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.button{
+    margin: -6px 22px 1px 14px;
+    padding: -16px 10px 5px -16px;
+    height: 42px;
+    
+}
+.Button{
+    background: #4F94D8;
+    font-size: 16px;
+    margin: -1px 24px 13px 1px;
+    padding: 3px 8px 31px 9px;
+    height: 21px;
+    width: 265px;
+}
+.firsttext{
+    margin: 10px 12px 13px 31px;
+    padding: 9px -27px 79px 118px;
+    width: 298px;
+    height: 42px;
+}
+.link{
+    margin: -28px 39px -254px 47px;
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    height: 300px;
+}
+a{
+    text-decoration: none;
+    color: #0253A4;
+}
+.forget{
+    margin: -11px 42px 29px 84px;
+    padding: -8px 10px 10px 10px;
+    font-size: 13px;
+}
+.form2{
+    margin: 317px 10px -13px -357px;
+    width: 346px;
+    height: 102px;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 0.2px 1px;
+    font-family: sans-serif;
+    letter-spacing: 0.3px;
+    background: white;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
